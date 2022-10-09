@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0; 
+  padding: 0; 
+  border: solid dodgerblue;
+  border-width: 2px;
+  overflow:hidden;
+  display:block;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contain {
+  background-color:rgb(187, 187, 159);
+  height: 1000px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  border-bottom: 5px solid dodgerblue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.category{
+  border: 5px solid crimson;
+  margin-top: 170px;
+  margin-left: 20px;
+  width: 98%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:#292b2c;
 }
-
-.App-link {
-  color: #61dafb;
+#product-name{
+  color: crimson;
+  font-size: 1.4rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 17px;
+  padding-left: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#product-price{
+  color: crimson;
+  font-size: 1.4rem;
+  padding-top: 17px;
+  padding-left: 90rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list-contain{
+  display: flex;
+}
+.list{
+  border: 5px solid crimson;
+  border-bottom:0px;
+  border-top:0px;
+  border-right: 0px;
+  width: 98%;
+  margin-left: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: crimson;
+  background-color: white;
+}
+.list p{
+  border-bottom: 5px solid crimson;
+  font-size: 1.2rem;
+  padding-left: 30px;
+}
+.list-price{
+  border: 5px solid crimson;
+  border-bottom:0px;
+  border-top:0px;
+  width: 98%;
+  margin-right: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: crimson;
+  background-color: white;
+}
+.list-price p{
+  border-bottom: 5px solid crimson;
+  font-size: 1.2rem;
+  padding-left: 46rem;
 }
