@@ -43,7 +43,6 @@ html,body{
 }
 .list{
   border: 5px solid crimson;
-  border-bottom:0px;
   border-top:0px;
   border-right: 0px;
   width: 98%;
@@ -53,13 +52,12 @@ html,body{
   background-color: white;
 }
 .list p{
-  border-bottom: 5px solid crimson;
+  border-top: 5px solid crimson;
   font-size: 1.2rem;
   padding-left: 30px;
 }
 .list-price{
   border: 5px solid crimson;
-  border-bottom:0px;
   border-top:0px;
   width: 98%;
   margin-right: 17px;
@@ -68,7 +66,7 @@ html,body{
   background-color: white;
 }
 .list-price p{
-  border-bottom: 5px solid crimson;
+  border-top: 5px solid crimson;
   font-size: 1.2rem;
   padding-left: 46rem;
 }
